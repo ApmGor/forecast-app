@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Forecast</string>
+    <string name="search_desc">Поиск</string>
+    <string name="back_arrow_desc">Вернуться назад</string>
+    <string name="settings_desc">Экран настроек</string>
+    <string name="place_desc">Поиск местоположения</string>
+    <string name="warning_title">Предупреждения</string>
+    <string name="settings_title">Настройки</string>
+    <string name="clear_desc">Очистить набранный текст</string>
+    <string name="permission_denied">Запрос не выполнен. Вы не предоставили необходимые разрешения</string>
+    <string name="title_dialog">Запрос разрешения</string>
+    <string name="text_dialog">Запрос местоположения теребует соответствующего разрешения.
+        Если вы не предоставите его, то не сможете использовать GPS для быстрого прогноза погоды.
+        Выберите \"При использовании приложения\" в следующем окне, если решите предоставить это разрешение.
+    </string>
+    <string name="confirm_dialog">Разрешить</string>
+    <string name="dismiss_dialog">Отклонить</string>
+    <string name="weather_image">Изображение погоды</string>
+    <string-array name="wind_names">
+        <item>Штиль</item>
+        <item>Легкий ветерок</item>
+        <item>Легкий бриз</item>
+        <item>Нежный бриз</item>
+        <item>Умеренный бриз</item>
+        <item>Бодрящий бриз</item>
+        <item>Сильный бриз</item>
+        <item>Умеренная буря</item>
+        <item>Бодрящая буря</item>
+        <item>Сильная буря</item>
+        <item>Тотальная буря</item>
+        <item>Шторм</item>
+        <item>Ураган</item>
+    </string-array>
+    <string name="current_wind">Ветер: %1$.1f%2$s %3$s</string>
+    <string name="current_pressure">Давление: %1$d%2$s</string>
+    <string name="current_humidity">Влажность: %1$d%%</string>
+    <string name="current_visibility">Видимость: %1$d%2$s</string>
+    <string name="current_uvi">УФ-индекс: %1$.1f</string>
+    <string name="current_dew_point">Tочка росы: %1$d°%2$s</string>
+    <string-array name="wind_directions">
+        <item>С</item>
+        <item>ССВ</item>
+        <item>СВ</item>
+        <item>ВСВ</item>
+        <item>В</item>
+        <item>ВЮВ</item>
+        <item>ЮВ</item>
+        <item>ЮЮВ</item>
+        <item>Ю</item>
+        <item>ЮЮЗ</item>
+        <item>ЮЗ</item>
+        <item>ЗЮЗ</item>
+        <item>З</item>
+        <item>ЗСЗ</item>
+        <item>СЗ</item>
+        <item>ССЗ</item>
+    </string-array>
+    <string name="arrow_wind_direction">Стрелка направления ветра</string>
+
+    <!-- Настройки -->
+
+    <string-array name="units_desc">
+        <item>Температура</item>
+        <item>Скорость ветра</item>
+        <item>Давление</item>
+        <item>Осадки</item>
+        <item>Расстояние</item>
+        <item>Формат времени</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="wind_units">
+        <item>м/с</item>
+        <item>км/ч</item>
+        <item>ми/ч</item>
+    </string-array>
+    <string-array name="pressure_units">
+        <item>гПа</item>
+        <item>мрс</item>
+    </string-array>
+    <string-array name="precipitation_units">
+        <item>мм</item>
+        <item>дю</item>
+    </string-array>
+    <string-array name="dist_units">
+        <item>км</item>
+        <item>ми</item>
+    </string-array>
+    <string-array name="time_units">
+        <item>24-часа</item>
+        <item>12-часов</item>
+    </string-array>
+
+
+    <string name="current_temp">%1$d°%2$s</string>
+    <string name="current_feel_like">Ощущается как %1$d°%2$s</string>
+    <string name="button_text_chancel">Отмена</string>
+    <string name="button_text_ok">OK</string>
+
+    <string name="sunset_desc">Закат</string>
+    <string name="sunrise_desc">Рассвет</string>
+
+
+    <string name="chart_legend_name">Осадки, %1$s</string>
+    <string-array name="cart_x_labels">
+        <item>сейчас</item>
+        <item>15мин</item>
+        <item>30мин</item>
+        <item>45мин</item>
+        <item>60мин</item>
+    </string-array>
+    <string name="no_precipitation">В течении данного часа не будет осадков</string>
+    <string name="full_hour_precipitation">Осадки продлятся весь час</string>
+    <plurals name="number_of_minutes_1">
+        <item quantity="one">Осадки продлятся еще %d минуту</item>
+        <item quantity="few">Осадки продлятся еще %d минуты</item>
+        <item quantity="other">Осадки продлятся еще %d минут</item>
+    </plurals>
+    <plurals name="number_of_minutes_2">
+        <item quantity="one">Осадки начнутся через %d минуту</item>
+        <item quantity="few">Осадки начнутся через %d минуты</item>
+        <item quantity="other">Осадки начнутся через %d минут</item>
+    </plurals>
+
+    <string name="icon_close_daily_add_info">Закрыть дополнительную иформацию</string>
+    <string name="daily_precipitation">Осадки</string>
+    <string name="daily_pop">Вероятность осадков</string>
+    <string name="daily_wind">Ветер</string>
+    <string name="daily_pressure">Давление</string>
+    <string name="daily_humidity">Влажность</string>
+    <string name="daily_uvi">УФ-индекс</string>
+    <string name="no_content_desc">Выберите город в поиске сверху, либо там же используйте GPS.</string>
+    <string name="search_placeholder_default">Поиск</string>
+
+</resources>

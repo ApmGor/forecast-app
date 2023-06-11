@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Forecast</string>
+
+    <string-array name="units_desc">
+        <item>Температура</item>
+        <item>Скорость ветра</item>
+        <item>Давление</item>
+        <item>Осадки</item>
+        <item>Расстояние</item>
+        <item>Формат времени</item>
+    </string-array>
+    <string-array name="temp_units">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="wind_units">
+        <item>м/с</item>
+        <item>км/ч</item>
+        <item>ми/ч</item>
+    </string-array>
+    <string-array name="pressure_units">
+        <item>гПа</item>
+        <item>мрс</item>
+    </string-array>
+    <string-array name="precipitation_units">
+        <item>мм</item>
+        <item>дю</item>
+    </string-array>
+    <string-array name="dist_units">
+        <item>км</item>
+        <item>ми</item>
+    </string-array>
+    <string-array name="time_units">
+        <item>24-часа</item>
+        <item>12-часов</item>
+    </string-array>
+
+    <string name="back_arrow_desc">Вернуться назад</string>
+    <string name="warning_title">Предупреждения</string>
+    <string name="settings_title">Настройки</string>
+</resources>
